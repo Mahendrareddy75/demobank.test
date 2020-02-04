@@ -1,0 +1,9 @@
+demobank\utils\Reporting.class
+demobank\pageobjects\loginpage.class
+demobank\testcases\TC_LoginDOT_002.class
+demobank\pageobjects\AddcustomerPage.class
+demobank\testcases\Tc_LoginTest_001.class
+demobank\utils\Readconfig.class
+demobank\utils\XLUtils.class
+demobank\testcases\baseclass.class
+demobank\testcases\TC_AddNewCustomer_003.class

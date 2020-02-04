@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="2" name="Failed suite [demobank]">
+  <listeners>
+    <listener class-name="demobank.utils.Reporting"/>
+  </listeners>
+  <test thread-count="5" verbose="2" name="demobank test(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="demobank.testcases.TC_LoginDOT_002">
+        <methods>
+          <include name="setup"/>
+          <include name="LogingDOT"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- demobank.testcases.TC_LoginDOT_002 -->
+    </classes>
+  </test> <!-- demobank test(failed) -->
+</suite> <!-- Failed suite [demobank] -->
